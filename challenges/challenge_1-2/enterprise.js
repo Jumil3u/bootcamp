@@ -10,6 +10,6 @@ const enterprise = {
     }
 }
 
-const result = `The enterprise ${enterprise.name} is located in ${enterprise.address.street}, ${enterprise.address.number}`
+const result = `The enterprise ${enterprise.name} is located at ${enterprise.address.street}, ${enterprise.address.number}`
 
 console.log(result)
